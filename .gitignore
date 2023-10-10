@@ -125,3 +125,18 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node modules
+node_modules/
+
+# Editor folders
+.vscode/
+.idea/
+
+# Build or distribution directories (if you have any)
+dist/
+build/
