@@ -297,6 +297,17 @@ h2 {
     width: 50%;
     margin-bottom: 80px;
 }
+.image-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the images */
+    align-items: center; /* Vertically center the images */
+    margin-bottom: 10px;
+  } 
+.image-container img {
+    margin: 0 10px; /* Add a small gap between the images */
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain the aspect ratio of the images */
+}
 .intro-circle-1 {
     left: -20px;
     top: -10px;
